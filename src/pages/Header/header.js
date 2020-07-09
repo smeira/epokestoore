@@ -22,16 +22,10 @@ export default function Header(props) {
   return (
     <Col className="col-Header">
       <div className="Header">
-        {/* <div className="divLogo">
-          <img src={logoImg} alt="Logo" className="imageLogo" />
-        </div>
-        <div className="divLogo">
-          <img src={grassImg} alt="Grass" className="imageGrass" />
-        </div> */}
-        <div className="divSearch">
+       <div className="divSearch">
           <input
             type="text"
-            placeholder="O que você deseja?"
+            placeholder="Qual pokemon você deseja comprar hoje?"
             onChange={handleSearch}
           />
           <button disabled>
