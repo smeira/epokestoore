@@ -31,7 +31,7 @@ export default function Header(props) {
         <div className="divSearch">
           <input
             type="text"
-            placeholder="Insira o nome do Pokémon desejado"
+            placeholder="O que você deseja?"
             onChange={handleSearch}
           />
           <button disabled>

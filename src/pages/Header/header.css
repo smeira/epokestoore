@@ -4,7 +4,7 @@
 }
 .Header {
   display: flex;
-  background-color: #ee353e;
+  background-color:  #d15177;
   align-items: center;
 }
 .divSearch {
@@ -54,7 +54,7 @@
   float: left;
   width: auto;
   padding: 10px;
-  background: #ee353e;
+  background:  #d15177;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
