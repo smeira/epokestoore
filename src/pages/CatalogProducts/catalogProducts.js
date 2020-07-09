@@ -105,8 +105,7 @@ export default function CatalogProducts(props) {
                 onClick={() => addProduct(pokemon)}
               >
                 <span className="textAddProduct">Adicionar</span>
-                {/* <img src={pokebola} className="pokebola" alt="pokebola" /> */}
-              </button>
+            </button>
             </Col>
           ))
         )}
