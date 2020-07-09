@@ -1,0 +1,118 @@
+.ProductContainer {
+  position: relative;
+  background: #fff;
+  margin: 20px;
+  width: 25%;
+  min-width: 215px;
+  margin-top: 60px;
+  color: var(--text-color);
+  box-shadow: 0 2px 6px #3d3d4f24;
+  border-radius: 10px;
+}
+
+.Only {
+  margin-right: 75%;
+}
+
+.ProductSpriteContainer {
+  width: 110px;
+  margin-right: 12px;
+}
+
+.ProductSprite {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin-top: -40px;
+  margin-left: 12px;
+  margin-bottom: -20px;
+}
+
+.ProductInfoContainer {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 16px;
+}
+
+.ProductTitleContainer {
+  margin: 8px 26px;
+  margin-top: 22px;
+}
+
+.ProductTitle {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+}
+
+.ProductTypeList {
+  width: 125px;
+}
+
+.ProductType {
+  margin-top: 6px;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 2px;
+  border-radius: 400px 0 0 400px;
+  color: #fff;
+}
+
+.ProductType:nth-of-type(2) {
+  border-radius: 0 400px 400px 0;
+}
+
+.ProductType.Single {
+  width: 80%;
+  border-radius: 400px;
+}
+
+.ProductPrice {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 12px 0;
+  margin-left: 15px;
+}
+
+.Discount {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  color: #fff;
+  background: var(--success-color);
+  border-radius: 400px;
+  padding: 2px 10px;
+}
+
+.ProductBuyButton {
+  display: block;
+  margin-left: 15px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  width: 80%;
+}
+
+@media screen and (max-width: 850px) {
+  .ProductContainer {
+    width: 40%;
+    min-width: 170px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ProductContainer {
+    width: 40%;
+    min-width: 185px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ProductContainer {
+    width: 75%;
+  }
+  
+  .Only {
+    margin-right: 0;
+  }
+}

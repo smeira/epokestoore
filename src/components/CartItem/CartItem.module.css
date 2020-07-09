@@ -1,0 +1,56 @@
+.CartItemContainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.CartItemInfoContainer {
+  width: 40%;
+  margin-left: 12px;
+}
+
+.CartItemTitle {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.CartItemPrice {
+  display: inline-block;
+  margin: 6px 0;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.CartItemButton {
+  margin-left: auto;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  background: rgb(203, 203, 214);
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .CartItemButton {
+    width: 40%;
+    margin-top: 6px;
+    margin-left: 12px;
+  }
+  
+  .CartItemInfoContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CartItemPrice {
+    display: block;
+  }
+}
