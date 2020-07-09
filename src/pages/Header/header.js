@@ -22,12 +22,12 @@ export default function Header(props) {
   return (
     <Col className="col-Header">
       <div className="Header">
-        <div className="divLogo">
+        {/* <div className="divLogo">
           <img src={logoImg} alt="Logo" className="imageLogo" />
         </div>
         <div className="divLogo">
           <img src={grassImg} alt="Grass" className="imageGrass" />
-        </div>
+        </div> */}
         <div className="divSearch">
           <input
             type="text"
