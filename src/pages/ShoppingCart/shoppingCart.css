@@ -102,14 +102,14 @@ h2 {
   font-size: 22px;
   font-weight: bold;
   color: white;
-  background-color: #ee353e;
+  background-color: #cc0b65;
   height: 110px;
   border: none;
   border-radius: 10px;
   width: -webkit-fill-available;
 }
 .buttonSubmit:hover {
-  background-color: #cc0b65;
+  background-color: #ee353e;
 }
 
 .iconCheck {
