@@ -98,8 +98,7 @@ export default function ShoppingCart(props) {
   return (
     <Col className="container-shoppingCart" sm={4}>
       <Row className="contentTitle">
-        <span className="title">Capturados</span>
-        <img src={pokebola} className="pokebola" id="pokebola" alt="pokebola" />
+        <span className="title">Seu Carrinho</span>       
         <span className="qtdProductCart">{totalItens ? totalItens : 0}</span>
       </Row>
       {false ? (
