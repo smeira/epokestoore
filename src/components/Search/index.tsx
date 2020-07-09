@@ -46,18 +46,18 @@ const Search = () => {
       className={S.SearchContainer}
     >
       <label className={S.SearchLabel} htmlFor="search">
-        PokeStore - Encontre aqui os melhores pokemons
+        ePokeStoore
       </label>
       <input
         id="search"
         className={S.SearchInput}
-        placeholder="Busque por Pokemon ou por Tipo"
+        placeholder="O que você deseja?"
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
       <button type="submit" className={S.SearchButton}>
-        Buscar
+        Pesquisar
       </button>
     </form>
   );

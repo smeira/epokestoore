@@ -6,10 +6,10 @@ import S from "./Footer.module.css";
 const Footer = () => (
   <footer className={S.FooterContainer}>
     <span className={S.FooterBlocks}>
-      Boas Compras!      
-    </span>    
+      Boas Compras!
+    </span>
+
   </footer>
 );
 
 export default Footer;
-

@@ -26,14 +26,14 @@ const Cart = () => {
   return (
     <>
       <section className={`${S.CartContainer} ${show ? S.Show : ""}`}>
-        <h1 className={S.CartTitle}>Carrinho</h1>
+        <h1 className={S.CartTitle}>Seu Carrinho</h1>
 
         {!isCartEmpty && (
           <ul className={S.CartListContainer}>
             {cart.products.map((cartItem: ICartItem) => (
               <>
                 <CartItem cartItem={cartItem} />
-                
+                {/* <CartItem cartItem={cartItem} />*/}
               </>
             ))}
           </ul>
@@ -43,9 +43,9 @@ const Cart = () => {
           <div className={S.EmptyCartContainer}>
             <ShoppingBag className={S.EmptyCartIcon} />
             <strong className={S.EmptyCartTitle}>
-              Nenhum produto adicionado
+              Nenhum produto no carrinho
             </strong>
-            <span className={S.EmptyCartText}>Escolha seu pokemon preferido.</span>
+            <span className={S.EmptyCartText}>Adicione itens ao seu carrinho!</span>
           </div>
         )}
 
@@ -74,7 +74,7 @@ const Cart = () => {
           }}
           className={S.CartButton}
         >
-          Finalizar
+          Finalizar Compra
         </button>
 
         {payment && <PaymentSucessfull setPayment={setPayment} />}
