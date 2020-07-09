@@ -4,7 +4,7 @@
 }
 .Header {
   display: flex;
-  background-color: #8bbe8a;
+  background-color: #ee353e;
   align-items: center;
 }
 .divSearch {
@@ -37,7 +37,7 @@
 .catalog-content {
   width: 150px;
   height: 150px;
-  background-color: grey;
+  background-color: rgb(235, 213, 213);
 }
 .catalog-content p {
   text-align: center;
@@ -46,7 +46,7 @@
 .divSearch input[type="text"] {
   padding: 20px;
   font-size: 17px;
-  border: 1px solid grey;
+  border: 1px solid rgb(245, 175, 175);
   width: 30%;
   background: #f1f1f1;
 }
@@ -54,7 +54,7 @@
   float: left;
   width: auto;
   padding: 10px;
-  background: #62b957;
+  background: #ee353e;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
@@ -68,5 +68,5 @@
   display: table;
 }
 .content {
-  background-color: blue;
+  background-color: rgb(65, 1, 46);
 }
