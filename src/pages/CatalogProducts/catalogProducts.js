@@ -104,8 +104,8 @@ export default function CatalogProducts(props) {
                 className="products-container-ul-li-button"
                 onClick={() => addProduct(pokemon)}
               >
-                <span className="textAddProduct">Capturar</span>
-                <img src={pokebola} className="pokebola" alt="pokebola" />
+                <span className="textAddProduct">Adicionar</span>
+                {/* <img src={pokebola} className="pokebola" alt="pokebola" /> */}
               </button>
             </Col>
           ))
