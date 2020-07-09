@@ -4,9 +4,8 @@ import { Linkedin, GitHub } from "react-feather";
 import S from "./Footer.module.css";
 
 const Footer = () => (
-  <footer className={S.FooterContainer}>
-    <span className={S.FooterBlocks}>
-    </span>
+  <footer className={S.FooterContainer}>   
+
   </footer>
 );
 
