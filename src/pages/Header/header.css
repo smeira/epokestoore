@@ -1,0 +1,72 @@
+.col-Header {
+  width: 100%;
+  position: fixed;
+}
+.Header {
+  display: flex;
+  background-color: #8bbe8a;
+  align-items: center;
+}
+.divSearch {
+  width: 100%;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 10px;
+  display: flex;
+  background-color: transparent;
+}
+.divLogo {
+  background-color: transparent;
+  margin: 10px;
+}
+.imageLogo {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  max-width: 200px;
+  margin-left: 30px;
+}
+.imageGrass {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  max-width: 90px;
+  margin-left: 40px;
+}
+
+.catalog-content {
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+}
+.catalog-content p {
+  text-align: center;
+  margin: auto;
+}
+.divSearch input[type="text"] {
+  padding: 20px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 30%;
+  background: #f1f1f1;
+}
+.divSearch button {
+  float: left;
+  width: auto;
+  padding: 10px;
+  background: #62b957;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  opacity: 0.9;
+}
+
+.divSearch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content {
+  background-color: blue;
+}

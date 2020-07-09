@@ -1,0 +1,126 @@
+.catalog-container {
+  width: 75%;
+  float: left;
+  background-color: transparent;
+  margin-right: -10px;
+  margin-top: 100px;
+}
+.row-section-catalog {
+  background-color: transparent;
+  padding: 15px;
+  margin: 15px;
+  margin-top: 0;
+  font-size: 16px;
+}
+.imagePokemon {
+  width: 130px;
+  height: 130px;
+}
+.products-container-li figure:hover img {
+  -webkit-transform: scale(1.3);
+}
+
+.products-container-ul {
+  list-style: none;
+  background-color: transparent;
+}
+.products-container-li {
+  display: inline-block;
+  border-radius: 8px;
+  margin: 33px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: auto;
+}
+.products-container-ul-li-button {
+  border: 0;
+  height: 50px;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fdb6d7;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  cursor: pointer;
+  margin: auto;
+  color: white;
+}
+.products-container-ul-li-button:hover {
+  background-color: #f53c64;
+}
+.products-container-ul-li-strong {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.products-container-ul-li-p {
+  text-align: center;
+  align-items: center;
+  margin: auto auto 0 auto;
+  background-color: transparent;
+}
+.products-container-ul-li-p:first-letter {
+  text-transform: capitalize;
+}
+.catalog {
+  background-color: transparent;
+  margin-top: 10px;
+}
+.buttonCart[href="#top"] {
+  padding: 10px;
+  position: absolute;
+  top: 90%;
+  right: 40px;
+  display: none;
+  font-size: 30px;
+}
+.buttonCart[href="#top"]:hover {
+  text-decoration: none;
+}
+.cartScroll {
+  width: 50px;
+  height: 50px;
+  background-color: #ee353e;
+  border: 2px solid #ee353e;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+  position: fixed;
+  bottom: 12px;
+  right: 10px;
+}
+.iconCartBottom {
+  padding-right: 29px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.pagination {
+  display: flex;
+  min-width: 500px;
+  max-width: 900px;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: rgb(252, 172, 192);
+}
+.paginationButton {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: rgb(241, 31, 48);
+  cursor: pointer;
+}
+.paginationItem {
+  margin: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.textAddProduct {
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
